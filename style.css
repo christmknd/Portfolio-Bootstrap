@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/*body,html{
+    margin: 0;
+    padding: 0;
+}
+*/
+html {
+    border: none;
+    width: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif ;
+    background-color : #111111;
+}
+
+.container-fluid {
+    padding: 0;
+    margin:0;
+}
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border:none;
+    box-shadow: none;
+    background-color: black;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.btn-custom {
+    background-color: #e6e6e6;
+    color:black;
+}
+
+.btn-custom:hover {
+    background-color: grey;
+}
+
+/*header*/
+
+.header{
+    background-color : #e6e6e6;
+    /*height:75px;*/
+    line-height: 75px; 
+}
+
+.logo {
+    color: black ;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.logo:hover{
+    color: #f2f2f2
+}
+
+.menu {
+    float: right;
+    
+}
+
+.menu a {
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;  
+}
+
+.menu a:hover {
+    color: #f2f2f2;
+}
+
+
+/*bannière*/
+
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position : relative;
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.inner-banner {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    text-shadow: 1px 1px 5px #e6e6e6;
+}
+
+
+/*portfolio*/
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio .item-folio {
+    height:300px;
+    background-color: #e6e6e6;
+    margin-bottom: 10px;
+
+}
+
+/*about*/
+.about{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.about article{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.about article h2 {
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #e6e6e6;   
+}
+
+#contact{
+    text-align: center;
+}
+
+.formulaire{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+input[type=text]{
+    height:50px;
+    width:500px;
+    border:none;
+}
+
+input[type=email]{
+    height:50px;
+    width:500px;
+    border:none;
+}
+
+textarea{
+    height:200px;
+    width: 500px;
+    border: none;
+    resize: vertical;
+}
